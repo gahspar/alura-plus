@@ -1,6 +1,6 @@
 # Projeto Academico da Alura
 
-O alura plus é um projeto desenvolvido em um curso realizado no Aluro, curso este para aperfeicionar as habilidades e conhecimentos em HTML e CSS.
+O alura plus é um projeto desenvolvido em um curso realizado no Alura, curso este para aperfeicionar as habilidades e conhecimentos em HTML e CSS.
 
 No projeto foi desenvolvido uma landing-page bem simples, usando bastante flex-box e grid-container. 
 
