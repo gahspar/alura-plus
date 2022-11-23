@@ -1,0 +1,235 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul:#167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte:'Inter', sans serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main {
+    background-image:url("https://raw.githubusercontent.com/alura-cursos/aluraplus/aula04/img/Background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    align-items: center;
+}
+.main-text {
+    color:var(--branco-principal);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--fonte);
+    padding: 0 120px;
+}
+
+.main-botton{
+    background-color: var(--botao-azul);
+    border-radius: 10px;
+    padding: 16px;
+    gap: 16px;
+    width: 512px;
+    height: 56px;
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte);
+    text-decoration: none;
+    margin-bottom: 1em;
+    border: none;    
+
+}
+.main-botton:hover{
+    background-color: cornflowerblue;
+    transition: 1000ms;
+}
+.img-combo {
+    width: 300px;
+    margin: 1em 0 2em 0;
+}
+
+.main-botton2{
+    background-color: transparent;
+    border: #C0C0C0 solid 1px;   
+}
+.paragrafo-inicio {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 12px;
+ 
+}
+.container-caixa {
+    gap: 16px;
+}
+a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.container-plataform {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+
+}
+.container__descricao--secundaria {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.paragrafo-secundario{
+    color: var(--cinza-secundario);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 120px;
+}
+
+.container-descricao {
+    padding: 2em;
+    font-family: var(--fonte);
+}
+.container-langue {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 120px;
+}
+.paragrafo-langue {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 225px;
+}
+
+.botton-langue {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 16px;
+    text-decoration: none;
+    border: none;
+    width: 162px;
+    height: 56px;
+    margin-top: 15px;
+}
+.final-page {
+    background-color: var(--cor-de-fundo);
+    padding: 150px;
+    display: flex;
+}
+.paragrafo-final {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 120px;
+}
+
+.container-descricao--final {
+    font-size: 48px;
+    font-family: var(--fonte);
+    color: var(--branco-principal);
+}
+
+.rodape {
+
+    display: grid;
+    width: 100%;
+    grid-template-columns:auto;
+    grid-template-areas: 
+    "titulo-principal titulo-principal titulo-principal "
+    "container-tv container-computadores container-celulares"
+    "logo logo logo"
+    ;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.container-rodape {
+    background-color: var(--cor-de-fundo);
+}
+
+.container-tv {
+    grid-area: container-tv;
+    text-align: center;
+}
+.container-computadores {
+    grid-area: container-computadores;
+    text-align: center;
+}
+
+.container-tablet {
+    grid-area: container-celulares;
+    text-align: center;
+}
+
+.texto-rodape {
+    font-size: 48px;
+    font-family: var(--fonte);
+    color: var(--branco-principal);
+    grid-area: titulo-principal;
+}
+.texto-tv {
+    font-size: 28px;
+    font-family: var(--fonte);
+    color: var(--branco-principal);
+}
+.texto-computador {
+    font-size: 28px;
+    font-family: var(--fonte);
+    color: var(--branco-principal);
+}
+.texto-tablet {
+    font-size: 28px;
+    font-family: var(--fonte);
+    color: var(--branco-principal);
+}
+.logo {
+    grid-area: logo;
+    padding-top: 75px;
+}
+
+.links {
+    font-family: var(--fonte);
+    color: var(--cinza-secundario);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+
+.copyright {
+    font-size: 14px;
+    font-family: var(--fonte);
+    color: var(--cinza-secundario);
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+.listas {
+    margin: 0 -125px;
+}
+.descricao-copy {
+    padding: 0 0 15px 0;
+}
+
+.descricao-copy2 {
+    padding-bottom: 80px;
+}
